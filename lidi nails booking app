@@ -1,0 +1,25 @@
+nail-booking-app
+│
+├ package.json
+├ server.js
+├ db.js
+├ sms.js
+│
+└ public
+   │
+   ├ index.html
+   ├ style.css
+   └ script.js
+{
+"name":"nail-booking-app",
+"version":"1.0.0",
+"main":"server.js",
+"scripts":{
+"start":"node server.js"
+},
+"dependencies":{
+"express":"^4.18.2",
+"sqlite3":"^5.1.6",
+"twilio":"^4.0.0"
+}
+}
